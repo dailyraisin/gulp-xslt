@@ -17,7 +17,8 @@ module.exports = function(template, config) {
         var stylesheetRaw = libxslt.libxmljs.parseXml(contents);
         stylesheet = libxslt.parse(stylesheetRaw);
     } catch (e) {
-        throw new Error(e.message);
+        //do nothing if file does not exist
+        //throw new Error(e.message);
     }
 
     function modifyContents(file, cb) {
