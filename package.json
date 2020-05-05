@@ -1,7 +1,7 @@
 {
-  "name": "@informatix8/gulp-xslt",
+  "name": "@dailyraisin/gulp-xslt",
   "private": false,
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "XSLT transformation plugin for gulp",
   "main": "index.js",
   "keywords": [
