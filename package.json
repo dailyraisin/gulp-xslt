@@ -1,6 +1,7 @@
 {
-  "name": "gulp-xslt",
-  "version": "2.0.0",
+  "name": "@informatix8/gulp-xslt",
+  "private": false,
+  "version": "2.0.2",
   "description": "XSLT transformation plugin for gulp",
   "main": "index.js",
   "keywords": [
@@ -10,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/vecmezoni/gulp-xslt.git"
+    "url": "git://github.com/dailyraisin/gulp-xslt.git"
   },
   "dependencies": {
     "event-stream": "~3.1.7",
